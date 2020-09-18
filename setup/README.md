@@ -10,7 +10,7 @@
 
 ![description](images/1.png)
 
-### :black_small_square: Step 2 - Add project Name and  CREATE
+### :black_small_square: Step 2 - Add project Name and CREATE
 
 
 ![description](images/2.png)
