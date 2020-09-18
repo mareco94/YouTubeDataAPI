@@ -23,7 +23,7 @@
 # Version		:	18-09-2020
 #
 # Author		:	Maria Oikonomidou
-# Email			:	mareco@ics.forth.gr 
+# Email			:	mareco@ics.forth.gr  
 # 
 ###############################################################
 
