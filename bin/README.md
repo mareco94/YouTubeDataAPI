@@ -1,11 +1,9 @@
 
-###To run add at the config.py.template your API KEY
+### To run add at the config.py.template your API KEY - to get API KEY see [SETUP GUIDE](https://github.com/mareco94/YouTubeAnalytics/tree/master/setup)
 
-###To get API KEY see [SETUP GUIDE](https://github.com/mareco94/YouTubeAnalytics/tree/master/setup)
+### Then change the name of config.py.template to config.py
 
-###Then change the name of config.py.template to config.py
-
-###READY TO GO!
+### READY TO GO!
 
 ## :small_blue_diamond: VIDEO INFO  - [./video-info.py]
 1) get a video's meatadata\
