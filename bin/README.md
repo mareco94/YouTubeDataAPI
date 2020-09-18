@@ -23,6 +23,8 @@ Returns a list of videos that match the API request parameters.
 	-d 	#[display query response]
 	-b 	#[display query basic info]
 	-h 	#[HElP MESSAGE]
+
+e.g ./video-info.py -u https://www.youtube.com/watch?v=6NXnxTNIWkc -b
 ```
 <!-- 
 ## :small_blue_diamond: CHANNEL INFO  - [./channel-info.py]
