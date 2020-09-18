@@ -133,4 +133,4 @@ Scipt to search a query at YouTube. Returns a collection of search results that 
 
 ./channel-sections.py -n  <CHANNEL_USERNAME> #input channel's name
 
-``` --> -->
+``` --> 
