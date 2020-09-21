@@ -7,8 +7,8 @@
 # Description	:	Scipt to get:
 # 					1) get a channel's meatadata
 #
-# 					Returns a list of videos that match 
-# 					the API request parameters.
+#					Returns a collection of zero or more channel 
+# 					resources that match the request criteria.
 #
 # Args			:	-i [channel id input]
 # 					-u [channel url input] 
