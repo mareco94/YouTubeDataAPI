@@ -28,7 +28,7 @@ e.g ./video-info.py -u https://www.youtube.com/watch?v=6NXnxTNIWkc
 ```
 
 ## :small_blue_diamond: CHANNEL INFO  - [./channel-info.py]
-1) get a channel's meatadata\
+1) get a channel's meatadata
 
 Returns a collection of zero or more channel resources that match the request criteria.
 
