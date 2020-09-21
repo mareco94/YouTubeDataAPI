@@ -21,32 +21,32 @@ Returns a list of videos that match the API request parameters.
 	--region #[search trending videos per region ] - regionCode eg. GR
 	-r 	#[max result number] - default 5
 	-d 	#[display query response]
-	-b 	#[display query basic info]
+	-b 	#[display query basic info] - default stored TRUE
 	-h 	#[HElP MESSAGE]
 
-e.g ./video-info.py -u https://www.youtube.com/watch?v=6NXnxTNIWkc -b
+e.g ./video-info.py -u https://www.youtube.com/watch?v=6NXnxTNIWkc
 ```
-<!-- 
+
 ## :small_blue_diamond: CHANNEL INFO  - [./channel-info.py]
-1) get a video's meatadata\
-			OR
-2) get most popular videos (YouTube Trends) and their metadata\
-Returns a list of videos that match the API request parameters.
+1) get a channel's meatadata\
+
+Returns a collection of zero or more channel resources that match the request criteria.
 
 ```bash
-./video-info.py <ARGUMENTS>
+./channel-info.py <ARGUMENTS>
 
 # <ARGUMENTS>:
-	--pid	#[input playlist ID]
-	--purl	#[input playlist URL]
-	--curl	#[input channel URL]
-	--cid	#[input channel ID]
-	--cname	#[input channel name]
+	-i	#[input channel ID]
+	-u	#[input channel URL]
+	-n	#[input channel name]
 	-d	#[display basic info]
+	-b 	#[display query basic info] - default stored TRUE
 	-h	#[HElP MESSAGE]
+
+e.g ./channel-info.py -i UCtTHxumNZOUhicIbIFeHmug
 ```
 
-
+<!-- 
 ## :small_blue_diamond: CHANNEL PLAYLISTS  - [./playlists.py]
 1) get playlists of a channel\
 			OR
