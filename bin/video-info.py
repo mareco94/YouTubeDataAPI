@@ -18,6 +18,8 @@
 # 					--region [search trending videos per region ] - regionCode eg. GR
 # 					-r [max result number] - default 5
 #					-d [display query response]
+#					-b [display query response - basic info]
+
 #					-h [HElP MESSAGE]
 #
 # Version		:	18-09-2020
@@ -161,7 +163,7 @@ def main():
 	parser.add_option("--region", dest = "regionCode", default=False, help="popular videos per region")
 	parser.add_option('-r',"--results", dest = "maxResults", default=False, help="search max result number")
 	parser.add_option('-d',"--display", dest = "display", action="store_true", default=False, help="display query response")
-	parser.add_option('-b',"--basic", dest = "basic", action="store_true", default=False, help="display query basic info")
+	parser.add_option('-b',"--basic", dest = "basic", action="store_true", default=True, help="display query basic info")
 
 
 	(options,args) = parser.parse_args()
