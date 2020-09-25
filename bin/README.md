@@ -28,7 +28,7 @@ e.g ./video-info.py -u https://www.youtube.com/watch?v=6NXnxTNIWkc
 ```
 
 ## :small_blue_diamond: CHANNEL INFO  - [./channel-info.py]
-1) get a channel's meatadata
+1) get a channel's information
 
 Returns a collection of zero or more channel resources that match the request criteria.
 
@@ -45,6 +45,27 @@ Returns a collection of zero or more channel resources that match the request cr
 
 e.g ./channel-info.py -i UCtTHxumNZOUhicIbIFeHmug
 ```
+
+## :small_blue_diamond: PLAYLIST'S ITEMS  - [./playlist-items.py]
+1) get a playlist's information
+
+Returns a collection of playlist items that match the API request parameters.
+You can retrieve all of the playlist items in a specified playlist.eturns a collection of playlists that match the API request parameters.
+
+```bash
+././playlist-items.py <ARGUMENTS>
+
+# <ARGUMENTS>:
+	-i #[input playlist ID]
+	-u #[input playlist URL]
+	-d #[display basic info] - default stored TRUE
+	-h #[HElP MESSAGE]
+
+e.g ./playlist-items.py -u https://www.youtube.com/watch?v=BKYWt8B9hgs&list=PLGVZCDnMOq0oX4ymLgldSvpfiZj-S8-fH
+```
+
+
+
 
 <!-- 
 ## :small_blue_diamond: CHANNEL PLAYLISTS  - [./playlists.py]
@@ -63,21 +84,6 @@ Returns a collection of playlists that match the API request parameters.
 	--region #[search trending videos per region ] - regionCode eg. GR
 	-r #[max result number] - default 5
 	-d #[display query response]
-	-h #[HElP MESSAGE] 
-```
-
-## :small_blue_diamond: PLAYLIST'S ITEMS  - [./playlist-items.py]
-1) get a playlist's info
-Returns a collection of playlist items that match the API request parameters.
-You can retrieve all of the playlist items in a specified playlist.eturns a collection of playlists that match the API request parameters.
-
-```bash
-././playlist-items.py <ARGUMENTS>
-
-# <ARGUMENTS>:
-	-i #[input playlist ID]
-	-u #[input playlist URL]
-	-d #[display basic info]
 	-h #[HElP MESSAGE] 
 ```
 
