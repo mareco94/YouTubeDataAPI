@@ -1,4 +1,4 @@
-# YouTubeAnalytics
+# YouTube Data API
 
 A YouTube Crawler with the use of YouTube Data API (v3)
 
