@@ -40,7 +40,7 @@ def get_playlist_metadata(items):
 	if "items" in items[0].keys():
 		
 		playlist_info={
-			'_id' : items[0]["items"][0]["snippet"]["playlistId"],
+	#		'_id' : items[0]["items"][0]["snippet"]["playlistId"],
 			'playlistID' : items[0]["items"][0]["snippet"]["playlistId"],
 			'totalVideos' : items[0]["pageInfo"]["totalResults"],
 			'channelName' : items[0]["items"][0]["snippet"]["channelTitle"],
@@ -65,16 +65,17 @@ def get_playlist_metadata(items):
 
 
 def print_basic_info(collection):
-
-	basic ={
-		'playlistID' : collection['playlistID'],
-		'totalVideos' : collection['totalVideos'],
-		'channelName' : collection['channelName'],
-		'channelID' : collection['channelID'],
-		'videoIDs' : collection['videoIDs']
+    if(collection.keys()):
+        i
+        basic ={
+                'playlistID' : collection['playlistID'],
+                'totalVideos' : collection['totalVideos'],
+                'channelName' : collection['channelName'],
+                'channelID' : collection['channelID'],
+                'videoIDs' : collection['videoIDs']
 	}
 
-	pprint.pprint(basic)
+        pprint.pprint(basic)
 
 
 
