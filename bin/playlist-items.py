@@ -66,7 +66,7 @@ def get_playlist_metadata(items):
 
 def print_basic_info(collection):
     if(collection.keys()):
-        i
+
         basic ={
                 'playlistID' : collection['playlistID'],
                 'totalVideos' : collection['totalVideos'],
