@@ -69,7 +69,7 @@ def get_basic_info(collection):
 		createdAt =  collection["snippet"]["publishedAt"]
 		channelID =  collection["channelID"]
 		totalViews =  collection["statistics"]["viewCount"]
-		totalComments =  collection["statistics"]["commentCount"]
+		#totalComments =  collection["statistics"]["commentCount"]
 		subscribers = collection["statistics"]["subscriberCount"]
 		totalVideos = collection["statistics"]["videoCount"]
 		privacyStatus =  collection["status"]["privacyStatus"] #string Privacy status of the channel. values : private - public - unlisted
@@ -123,7 +123,7 @@ def get_basic_info(collection):
 			'description': description,
 			'createdAt': createdAt,
 			'totalViews': totalViews,
-			'totalComments': totalComments,
+			#'totalComments': totalComments,
 			'subscribers': subscribers,
 			'totalVideos': totalVideos,
 			'topicIDs' : topicIDs,
