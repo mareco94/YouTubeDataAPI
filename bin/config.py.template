@@ -6,18 +6,22 @@ API_VERSION = 'v3'
 
 API_KEY = "ADD-YOUR-API-KEY_HERE"
 
-YOUTUBE_VIDEO = "https://www.googleapis.com/youtube/v3/videos"
 
-#PLAYLIST_ITEMS = "https://www.googleapis.com/youtube/v3/playlistItems"
-#CHANNEL_INFO = "https://www.googleapis.com/youtube/v3/channels"
-#COMMENT_THREAD = 'https://www.googleapis.com/youtube/v3/commentThreads'
-#YOUTUBE_CHANNEL_SECTIONS = "https://www.googleapis.com/youtube/v3/channelSections"
-#YOUTUBE_SEARCH = "https://www.googleapis.com/youtube/v3/search"
-#YOUTUBE_SUBSCRIPTIONS = "https://www.googleapis.com/youtube/v3/subscriptions"
-#YOUTUBE_VIDEO_CAPTIONS  = "https://www.googleapis.com/youtube/v3/captions"
-#YOUTUBE_CHANNEL_ACTIVITIES = "https://www.googleapis.com/youtube/v3/activities"
-#YOUTUBE_COMMENT ="https://www.googleapis.com/youtube/v3/comments"
-#PLAYLISTS = "https://www.googleapis.com/youtube/v3/playlists"
+YOUTUBE_SEARCH = "https://www.googleapis.com/youtube/v3/search"
+COMMENT_THREAD = 'https://www.googleapis.com/youtube/v3/commentThreads'
+YOUTUBE_VIDEO = "https://www.googleapis.com/youtube/v3/videos"
+PLAYLIST_ITEMS = "https://www.googleapis.com/youtube/v3/playlistItems"
+CHANNEL_INFO = "https://www.googleapis.com/youtube/v3/channels"
+YOUTUBE_CHANNEL_SECTIONS = "https://www.googleapis.com/youtube/v3/channelSections"
+
+
+YOUTUBE_SUBSCRIPTIONS = "https://www.googleapis.com/youtube/v3/subscriptions"
+YOUTUBE_VIDEO_CAPTIONS  = "https://www.googleapis.com/youtube/v3/captions"
+YOUTUBE_CHANNEL_ACTIVITIES = "https://www.googleapis.com/youtube/v3/activities"
+YOUTUBE_COMMENT ="https://www.googleapis.com/youtube/v3/comments"
+PLAYLISTS = "https://www.googleapis.com/youtube/v3/playlists"
+
+
 
 def requestURL(youtube_url, params):
 	r = requests.get(youtube_url + "?", params=params)
