@@ -27,6 +27,37 @@ Returns a list of videos that match the API request parameters.
 e.g ./video-info.py -u https://www.youtube.com/watch?v=6NXnxTNIWkc
 ```
 
+## :small_blue_diamond: COMMENT(S) INFO  - [./comments.py]
+1) get a video's comment thread\
+			OR
+2) get a channel's comment thread\
+			OR
+3) get a info for a comment\
+Returns a list of videos that match the API request parameters.
+
+```bash
+./comments.py <ARGUMENTS>
+
+# <ARGUMENTS>:
+	--vurl [input video URL]
+	--vid [input video ID]
+	--curl [input channel URL]
+	--chid [input channel ID]
+	--cid [comment ID]
+	-o [respone order] - time || relevance [not in use]
+	--all [get all comments]
+	-r [get r number of comments] - default 5
+	-d [display basic info] - default True
+	-h [HElP MESSAGE]
+
+e.g ./comments.py --vid 1M8TqPtRCGQ -r 10
+```
+
+
+
+
+
+
 ## :small_blue_diamond: CHANNEL INFO  - [./channel-info.py]
 1) get a channel's information
 
@@ -50,10 +81,10 @@ e.g ./channel-info.py -i UCtTHxumNZOUhicIbIFeHmug
 1) get a playlist's information
 
 Returns a collection of playlist items that match the API request parameters.
-You can retrieve all of the playlist items in a specified playlist.eturns a collection of playlists that match the API request parameters.
+You can retrieve all of the playlist items in a specified playlist returns a collection of playlists that match the API request parameters.
 
 ```bash
-././playlist-items.py <ARGUMENTS>
+./playlist-items.py <ARGUMENTS>
 
 # <ARGUMENTS>:
 	-i #[input playlist ID]
