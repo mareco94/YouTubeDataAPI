@@ -27,7 +27,7 @@ Returns a list of videos that match the API request parameters.
 e.g ./video-info.py -u https://www.youtube.com/watch?v=6NXnxTNIWkc
 ```
 
-## :small_blue_diamond: COMMENT(S) INFO  - [./comments.py]
+## :small_blue_diamond: VIDEO COMMENT(S) INFO  - [./comments.py]
 1) get a video's comment thread\
 			OR
 2) get a channel's comment thread\
