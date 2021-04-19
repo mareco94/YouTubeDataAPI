@@ -10,4 +10,5 @@ To run a youtube API KEY is needed
 ### :small_blue_diamond: See [SETUP GUIDE](https://github.com/mareco94/YouTubeAnalytics/tree/master/setup)
 
 
-## Find scripts at [bin/](https://github.com/mareco94/YouTubeAnalytics/tree/master/setup)
+### Find scripts at [bin/](https://github.com/mareco94/YouTubeDataAPI/tree/master/bin)
+
