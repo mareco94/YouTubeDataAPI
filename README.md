@@ -1,6 +1,6 @@
 # YouTube Data API
 
-A YouTube Crawler with the use of YouTube Data API (v3)
+A scripts to get YouTube data with the use of YouTube Data API (v3)
 
 This project runs with python3
 
